@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rm -r dist/ && gulp"
+    "dev": "rm -rf dist/ && gulp"
   },
   "author": "",
   "license": "ISC",
