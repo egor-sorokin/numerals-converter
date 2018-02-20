@@ -68,14 +68,14 @@
   transition: border 0.3s ease;
 
   &:focus {
-    border-bottom: 2px solid #4502da;
+    border-bottom: 2px solid #6732da;
   }
 }
 
 .error {
-  border-bottom: 2px solid #ff0354;
+  border-bottom: 2px solid #ff3988;
 
-  color: #ff0354;
+  color: #ff3988;
 }
 
 .button {
@@ -112,7 +112,7 @@
     bottom: 0;
     left: 0;
 
-    background-color: #4502da;
+    background-color: #6732DA;
 
     transition: transform 0.3s ease;
     transform: translateX(-100%);
@@ -126,7 +126,7 @@
     bottom: 0;
     left: 0;
 
-    border: 3px solid #4502da;
+    border: 3px solid #6732DA;
 
     transition: border 0.3s ease;
     z-index: 1;
@@ -153,7 +153,7 @@
     transform: translateX(0);
   }
   &:after {
-    border-color: #4502da;
+    border-color: #6732DA;
   }
 
   .button__text {
@@ -162,7 +162,7 @@
 }
 
 .button:active {
-  background-color: #4502da;
+  background-color: #6732DA;
 
   .button__text {
     color: #fff;
