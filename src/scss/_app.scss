@@ -8,12 +8,14 @@
   top: 50%;
   left: 50%;
 
-  width: 350px;
+  width: 420px;
+  padding: 70px 30px 110px;
+  background-color: #fff;
 
   transform: translateX(-50%) translateY(-50%);
 
   &__title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
     text-align: center;
     font-size: 20px;
@@ -21,7 +23,7 @@
   }
   &__button-container {
     position: relative;
-    top: 30px;
+    top: 50px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -50,9 +52,9 @@
 .output, .input {
   padding: 10px 0;
 
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #272727;
 
-  color: black;
+  color: #272727;
   font-size: 16px;
   font-weight: 700;
 }
@@ -134,7 +136,7 @@
 
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color: #000;
+    color: #272727;
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
