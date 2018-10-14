@@ -66,8 +66,7 @@ gulp.task('browser-sync', () => {
   });
 });
 
-
-gulp.task('default', ['css', 'js', 'html', 'browser-sync'], () => {
+gulp.task('default', gulp.parallel('css', 'js', 'html', 'browser-sync'), () => {
   gulp.watch('src/scss/*.scss', ['css']);
   gulp.watch('src/js/*.js', ['js']);
   gulp.watch('src/*.html', ['html']);
